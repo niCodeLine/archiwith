@@ -41,8 +41,6 @@ with reader.abrir(binari=True) as file:
 If the file is text-readeable you can just:
 
 ```python
-from archiwith import Archiwith
-
 # Stating the file path
 reader = Archiwith('path/to/your/file')
 
@@ -52,8 +50,6 @@ text = reader.leer()
 or shorter:
 
 ```python
-from archiwith import Archiwith
-
 # Stating the file path
 text = Archiwith('path/to/your/file').leer()
 ```
@@ -62,8 +58,6 @@ text = Archiwith('path/to/your/file').leer()
 ### Writing
 
 ```python
-from archiwith import Archiwith
-
 # Stating the file path
 writer = Archiwith('path/to/your/file').escribir()
 
