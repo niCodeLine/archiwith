@@ -70,6 +70,7 @@ writer = Archiwith('path/to/your/file').escribir()
 # Using the with method
 with writer as file:
     # Write the file
+```
 
 ## Features
 That would be it.
