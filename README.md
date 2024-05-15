@@ -14,7 +14,7 @@ or via git:
 ```bash
 git clone https://github.com/niCodeLine/archiwith.git
 ```
-or just copy-paste it in your code.
+or just copy-paste it into your code.
 
 ## Usage
 
