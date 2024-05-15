@@ -9,6 +9,12 @@ You can easily install `archiwith` using pip:
 ```bash
 pip install archiwith
 ```
+or via git:
+
+```bash
+git clone https://github.com/niCodeLine/archiwith.git
+```
+or just copy-paste it in your code.
 
 ## Usage
 
