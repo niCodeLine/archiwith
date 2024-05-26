@@ -12,8 +12,11 @@ class Archiwith:
         self._with = True
         return self.file
     
-    def escribir(self) -> TextIO:
-        self.file = open(self.file_path, 'w')
+    def escribir(self, append: bool = False) -> TextIO:
+        if append:
+            self.file = open(self.file_path, 'a')
+        else:
+            self.file = open(self.file_path, 'w')
         self._with = True
         return self.file
     
