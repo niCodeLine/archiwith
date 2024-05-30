@@ -91,7 +91,7 @@ You can access to the names via:
 ```python
 from archiwith import ObjectiFiles
 
-path = 'your/folder/path/here'
+path = 'path/to/your_folder'
 files = ObjectiFiles(path)
 
 ```
@@ -103,7 +103,7 @@ This will create the `files` object with the valid files as attributes and namei
 >>> files.f_my_programs__py
 'my programs.py'
 ```
-If you have recommendations enabled in your code editor (command I in VS Code), you will get the names when typing `files.f`. The `f` prefix comes from File and is to get a clearer view of what are the files.
+If you have suggestions enabled in your code editor (command I in VS Code), you will get the names when typing `files.f`. The `f` prefix comes from File and is to get a clearer view of what are the files in the autocomplete suggestions.
 
 ## Features
 That would be it.
