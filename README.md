@@ -72,6 +72,39 @@ with writer as file:
     # Write the file
 ```
 
+## ObjetiFiles 
+
+This implementation speeds up file handling by allowing access to file names as attributes, eliminating the need to manually write them out one by one. For example, lets say your folder has a structure like this:
+
+```css
+your_folder/
+│
+├── firstcode.py
+├── another_folder/
+├── outputs.txt
+├── tests.txt
+└── my programs.py
+
+```
+You can access to the names via:
+
+```python
+from archiwith import ObjectiFiles
+
+path = 'your/folder/path/here'
+files = ObjectiFiles(path)
+
+```
+This will create the `files` object with the valid files as attributes and nameing them with a `f_file_name__ext` form. So:
+
+```python
+>>> files.f_tests__txt
+'tests.txt'
+>>> files.f_my_programs__py
+'my programs.py'
+```
+If you have recommendations enabled in your code editor (command I in VS Code), you will get the names when typing `files.f`. The `f` prefix comes from File and is to get a clearer view of what are the files.
+
 ## Features
 That would be it.
 ## Contributions

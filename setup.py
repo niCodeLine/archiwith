@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='archiwith',
-    version='1.1.2',
+    version='1.2',
     packages=find_packages(),
     description='File opener and closener when managed via `with`.',
     long_description=open('README.md').read(),
