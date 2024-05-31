@@ -72,7 +72,7 @@ with writer as file:
     # Write the file
 ```
 
-## ObjetiFiles 
+## ObjectiFiles 
 
 This implementation speeds up file handling by allowing access to file names as attributes, eliminating the need to manually write them out one by one. For example, lets say your folder has a structure like this:
 
